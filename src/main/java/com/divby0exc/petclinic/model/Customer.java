@@ -5,5 +5,5 @@ public class Customer {
     private String address;
     private String city;
     private String number;
-    private String petName;
+    private Pet pet;
 }
