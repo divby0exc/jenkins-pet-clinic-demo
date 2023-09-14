@@ -4,7 +4,7 @@ import com.divby0exc.petclinic.model.Customer;
 
 import java.util.List;
 
-public interface IService {
+public interface ICustomerService {
     Customer saveCustomer(Customer customer);
 
     List<Customer> getAllCustomers();
